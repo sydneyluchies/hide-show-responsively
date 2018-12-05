@@ -23,25 +23,27 @@ img {
 
 @media only screen and (min-width: 25em) {
 
-body {
-  display: grid;
-  grid-template-columns: auto auto;
-}
+  body {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 
-img:nth-child(2) {
-  visibility: visible;
-}
+  img:nth-child(2) {
+    visibility: visible;
+  }
 
-img:nth-child(4) {
-  visibility: visible;
-}
+  img:nth-child(4) {
+    visibility: visible;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
-body {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
+  body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
 }
